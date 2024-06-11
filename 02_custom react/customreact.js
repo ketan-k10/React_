@@ -10,7 +10,7 @@ const reactElement = {
 }
 
 
-//! one way to render reactelement in container , first method.
+// ! one way to render reactelement in container , first method.
 customRender(reactElement, maincontainer);
 
 // function customRender(reactElement, container){
@@ -21,7 +21,7 @@ customRender(reactElement, maincontainer);
 //     container.appendChild(domElement);
 // }
 
-//! another approach , Second Method. in above one we were doing set attribute for every property instead we can do this:-
+// ! another approach , Second Method. in above one we were doing set attribute for every property instead we can do this:-
 
 function customRender(ReactElement, container){
     const domElement = document.createElement(ReactElement.type);
@@ -32,3 +32,4 @@ function customRender(ReactElement, container){
     }
     container.appendChild(domElement);
 }
+

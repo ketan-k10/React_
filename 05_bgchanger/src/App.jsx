@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
               <button onClick={()=>{setcolor("yellow")}} className=' p-2 bg-yellow-600  m-2 rounded-xl  '>yellow</button>
               <button onClick={()=>{setcolor("green")}} className=' p-2 bg-green-600  m-2 rounded-xl  '>green</button>
               <button onClick={()=>{setcolor("lavender")}} className=' p-2  bg-gray-300    m-2 rounded-xl  '>lavender</button>
-
             </div>
       </div>
     </>
